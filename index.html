@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Command Helper</title>
+
+    <!-- Place favicon.ico in the root directory -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- local files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <h1>Command Helper</h1> </a>
+    </header>
+    <nav>
+      <a href="#magento" class="showmagento">Magento</a>
+      <a href="#github" class="showgit">GitHub</a>
+      <a href="#jquery" class="showjquery">jQuery</a>
+    </nav>
+    <div class="content" id="content">
+      <!-- //magento conatiner -->
+      <div class="magento codecontainer" id="magento">
+        <h3 class="lable">Magento</h3>
+        <div class="commanddiv">
+          <p class="commandtext"><code>php bin/magento cache:clean;</code></p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext"><code>php bin/magento cache:flush;</code></p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext"><code>php bin/magento setup:upgrade;</code></p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento setup:di:compile;</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >sudo chmod -R 777 /var/www/html/m246; php bin/magento c:c; sudo
+              chmod -R 777 /var/www/html/m246;</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >sudo chmod -R 777 /var/www/html/m246; php bin/magento s:up; sudo
+              chmod -R 777 /var/www/html/m246;</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >sudo chmod -R 777 /var/www/html/m246; php bin/magento
+              setup:di:compile; sudo chmod -R 777 /var/www/html/m246;</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento indexer:reindex;</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext"><code>php bin/magento module:status;</code></p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >php bin/magento module:enable Dolphin_DiamondSearchGraphQl;</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento module:disable Dolphin_Cheakoutcomment;</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >php bin/magento setup:db-declaration:generate-whitelist
+              --module-name=Phillipsking_CustomerLicense</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext"><code>php bin/magento --version</code></p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento deploy:mode:show</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento deploy:mode:set developer/production</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento setup:static-content:deploy -f;</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento sampledata:deploy</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento sampledata:remove</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code>php bin/magento cron:run --group="default";</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <code
+              >php bin/magento s:up; php bin/magento s:s:d -f; php bin/magento
+              setup:di:compile; php bin/magento c:f;</code
+            >
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+      </div>
+
+      <!-- //github conatiner -->
+      <div class="github codecontainer" id="github">
+        <h3 class="lable">Github</h3>
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Check the git version</comment>
+            <code>git --version</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Initialize new empty git repo</comment
+            >
+            <code>git init</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Set your email</comment>
+            <code>git config --global user.email maulikpaneliya@gmail.com</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Set your username</comment>
+            <code>git config --global user.name maulikpaneliya</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Clone remote repo into local</comment
+            >
+            <code>git clone &lt;repo http link&gt; "&lt;repo name&gt;"</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Check the status of git repo</comment
+            >
+            <code>git status</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Add selected file into staging</comment
+            >
+            <code>git add test.php</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Add all files into staging</comment>
+            <code>git add --all</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Commit a changes</comment>
+            <code>git commit -m "my new commit"</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Commit a changes without staging</comment
+            >
+            <code>git commit -a -m "my new commit wo stag"</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >View changes history and logs</comment
+            >
+            <code>git log</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Create a new branch</comment>
+            <code class="gitbranchname"></code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">List all current branches</comment>
+            <code>git branch</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Switched to branch 'demo'</comment>
+            <code>git checkout demo</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Merge current branch with specific branch</comment
+            >
+            <code>git merge &lt;branch name&gt;</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Delete branch 'demo'</comment>
+            <code>git branch -d demo</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Push changes in specific branch</comment
+            >
+            <code>git push origin &lt;branch name&gt;</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Stop Tracking Git Repo</comment>
+            <code>rm -rf .git</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Revert all file changes</comment>
+            <code>git restore index.html</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Unstage staging changes</comment>
+            <code>git reset</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Compare working dir. with staging area</comment
+            >
+            <code>git diff</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand"
+              >Compare staging area with the last commit</comment
+            >
+            <code>git diff --staged</code>
+          </p>
+
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+      </div>
+      <!-- //jquery conatiner -->
+      <div class="jquery codecontainer" id="jquery">
+        <h3 class="lable">jQuery</h3>
+        <div class="commanddiv">
+          <p class="commandtext">
+            <comment class="commentcommand">Onclick</comment>
+            <code>$(".selector").click(function () { //content });</code>
+          </p>
+          <span class="clipboard">Copy</span>
+          <span class="tooltiptext">Copied</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+  </body>
+</html>

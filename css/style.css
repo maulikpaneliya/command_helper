@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  color: green;
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+#textbox {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#copyButton,
+.clipboard {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+a,
+.clipboard {
+  text-decoration: none;
+  color: white;
+}
+
+.codecontainer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.commanddiv {
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.commandtext {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.clipboard {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  top: 10px;
+  right: 10px;
+}
+
+.clipboard:hover {
+  background-color: #0056b3;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  /* border-radius: 11px; */
+  padding: 5px 0;
+  /* position: absolute; */
+  z-index: 1;
+  bottom: calc(100% + 10px);
+  left: 96%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.lable {
+  font-size: 24px; /* Example font size */
+  font-weight: bold; /* Example font weight */
+  margin-bottom: 20px;
+}
+
+.commentcommand {
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: list-item;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.commentcommand:hover {
+  color: red;
+  cursor: default;
+}
+
+/* Styles for scroll to top button */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: green;
+}
+html {
+  scroll-behavior: smooth;
+}
